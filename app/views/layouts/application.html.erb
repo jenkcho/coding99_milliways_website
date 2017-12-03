@@ -2,11 +2,14 @@
 <html>
 <head>
   <title>Milliways: Restaurant at the End of the Universe</title>
+  <link rel="shortcut icon" href="layouts/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="layouts/favicon.ico" type="image/x-icon"> 
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<%= render 'home/header' %>
 
 <%= yield %>
 
